@@ -6,9 +6,9 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/exec/build"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/exec"
+	"github.com/concourse/concourse/v7/atc/exec/build"
 )
 
 type FakeTaskConfigSource struct {

@@ -3,7 +3,7 @@ package build
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/runtime"
+	"github.com/concourse/concourse/v7/atc/runtime"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

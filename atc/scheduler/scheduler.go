@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/tracing"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/tracing"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

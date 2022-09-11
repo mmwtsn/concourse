@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/concourse/concourse/worker/network"
+	"github.com/concourse/concourse/v7/worker/network"
 	"github.com/stretchr/testify/require"
 )
 

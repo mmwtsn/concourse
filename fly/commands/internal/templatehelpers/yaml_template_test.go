@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
-	"github.com/concourse/concourse/fly/commands/internal/templatehelpers"
-	"github.com/concourse/concourse/vars"
+	"github.com/concourse/concourse/v7/fly/commands/internal/flaghelpers"
+	"github.com/concourse/concourse/v7/fly/commands/internal/templatehelpers"
+	"github.com/concourse/concourse/v7/vars"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

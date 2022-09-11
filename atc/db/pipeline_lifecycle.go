@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc/db/lock"
+	"github.com/concourse/concourse/v7/atc/db/lock"
 )
 
 //counterfeiter:generate . PipelineLifecycle

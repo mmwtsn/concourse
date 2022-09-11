@@ -14,10 +14,10 @@ import (
 	"code.cloudfoundry.org/lager/lagerctx"
 	"sigs.k8s.io/yaml"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/tracing"
-	"github.com/concourse/concourse/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/exec/build"
+	"github.com/concourse/concourse/v7/tracing"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
 )
 
 // LoadVarStep loads a value from a file and sets it as a build-local var.

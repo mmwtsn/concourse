@@ -10,7 +10,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 )
 
 func IndexHandler(logger lager.Logger, publicFS fs.FS) http.Handler {

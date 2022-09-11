@@ -1,8 +1,8 @@
 package integration_test
 
 import (
-	"github.com/concourse/concourse/atc"
-	concourse "github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/concourse/concourse/v7/atc"
+	concourse "github.com/concourse/concourse/v7/go-concourse/concourse"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

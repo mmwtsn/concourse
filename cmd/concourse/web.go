@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"os"
 
-	concourseCmd "github.com/concourse/concourse/cmd"
+	concourseCmd "github.com/concourse/concourse/v7/cmd"
 
-	"github.com/concourse/concourse/atc/atccmd"
-	"github.com/concourse/concourse/tsa/tsacmd"
+	"github.com/concourse/concourse/v7/atc/atccmd"
+	"github.com/concourse/concourse/v7/tsa/tsacmd"
 	"github.com/concourse/flag"
 	"github.com/jessevdk/go-flags"
 	"github.com/tedsuo/ifrit"

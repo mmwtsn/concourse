@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/runtime"
+	"github.com/concourse/concourse/v7/atc/exec"
+	"github.com/concourse/concourse/v7/atc/runtime"
 )
 
 type FakeStreamer struct {

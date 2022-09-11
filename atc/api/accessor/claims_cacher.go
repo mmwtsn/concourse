@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 	"github.com/golang/groupcache/lru"
 )
 

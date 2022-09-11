@@ -13,7 +13,7 @@ import (
 	"net/url"
 
 	"code.cloudfoundry.org/garden"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 	"github.com/concourse/retryhttp"
 	"github.com/tedsuo/rata"
 )

@@ -1,14 +1,14 @@
 package engine_test
 
 import (
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/db/lock/lockfakes"
-	"github.com/concourse/concourse/atc/engine"
-	"github.com/concourse/concourse/atc/engine/enginefakes"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/policy/policyfakes"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/db/dbfakes"
+	"github.com/concourse/concourse/v7/atc/db/lock/lockfakes"
+	"github.com/concourse/concourse/v7/atc/engine"
+	"github.com/concourse/concourse/v7/atc/engine/enginefakes"
+	"github.com/concourse/concourse/v7/atc/exec"
+	"github.com/concourse/concourse/v7/atc/policy/policyfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

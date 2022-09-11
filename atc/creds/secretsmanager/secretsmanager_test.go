@@ -5,15 +5,15 @@ import (
 
 	"code.cloudfoundry.org/lager/lagertest"
 
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/concourse/concourse/v7/atc/creds"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/secretsmanager"
 	"github.com/aws/aws-sdk-go/service/secretsmanager/secretsmanageriface"
-	"github.com/concourse/concourse/vars"
+	"github.com/concourse/concourse/v7/vars"
 
-	. "github.com/concourse/concourse/atc/creds/secretsmanager"
+	. "github.com/concourse/concourse/v7/atc/creds/secretsmanager"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

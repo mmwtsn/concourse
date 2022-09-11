@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/concourse/concourse/worker/baggageclaim/volume"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume"
 )
 
 type FakeRepository struct {

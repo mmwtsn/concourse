@@ -1,7 +1,7 @@
 package dexserver_test
 
 import (
-	"github.com/concourse/concourse/atc/postgresrunner"
+	"github.com/concourse/concourse/v7/atc/postgresrunner"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

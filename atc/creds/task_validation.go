@@ -1,8 +1,8 @@
 package creds
 
 import (
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/vars"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/vars"
 )
 
 type TaskEnvValidator struct {

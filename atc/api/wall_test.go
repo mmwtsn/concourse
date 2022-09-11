@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/concourse/concourse/atc"
-	. "github.com/concourse/concourse/atc/testhelpers"
+	"github.com/concourse/concourse/v7/atc"
+	. "github.com/concourse/concourse/v7/atc/testhelpers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

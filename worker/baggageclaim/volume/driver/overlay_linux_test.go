@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/concourse/concourse/worker/baggageclaim/volume"
-	"github.com/concourse/concourse/worker/baggageclaim/volume/driver"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume/driver"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

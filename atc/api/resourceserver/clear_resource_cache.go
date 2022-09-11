@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 	"github.com/google/jsonapi"
 
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 func (s *Server) ClearResourceCache(pipeline db.Pipeline) http.Handler {

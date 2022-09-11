@@ -6,8 +6,8 @@ import (
 
 	"code.cloudfoundry.org/lager"
 
-	"github.com/concourse/concourse/atc/api/jobserver"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/api/jobserver"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 func badgeForPipeline(pipeline db.Pipeline, logger lager.Logger) (jobserver.Badge, error) {

@@ -6,9 +6,9 @@ import (
 
 	"code.cloudfoundry.org/clock"
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/gc"
-	"github.com/concourse/concourse/atc/runtime"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/gc"
+	"github.com/concourse/concourse/v7/atc/runtime"
 )
 
 type Pool interface {

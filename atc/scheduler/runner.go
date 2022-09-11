@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/util"
-	"github.com/concourse/concourse/tracing"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/metric"
+	"github.com/concourse/concourse/v7/atc/util"
+	"github.com/concourse/concourse/v7/tracing"
 	"go.opentelemetry.io/otel/attribute"
 )
 

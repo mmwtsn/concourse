@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/metric"
+	"github.com/concourse/concourse/v7/atc/metric"
 )
 
 type LagerEmitter struct{}

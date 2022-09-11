@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/tracing"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/tracing"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"

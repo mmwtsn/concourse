@@ -3,7 +3,7 @@ package migration_test
 import (
 	"testing/fstest"
 
-	"github.com/concourse/concourse/atc/db/migration"
+	"github.com/concourse/concourse/v7/atc/db/migration"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/api/accessor/accessorfakes"
-	"github.com/concourse/concourse/atc/api/policychecker"
-	"github.com/concourse/concourse/atc/policy"
-	"github.com/concourse/concourse/atc/policy/policyfakes"
+	"github.com/concourse/concourse/v7/atc/api/accessor"
+	"github.com/concourse/concourse/v7/atc/api/accessor/accessorfakes"
+	"github.com/concourse/concourse/v7/atc/api/policychecker"
+	"github.com/concourse/concourse/v7/atc/policy"
+	"github.com/concourse/concourse/v7/atc/policy/policyfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

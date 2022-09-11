@@ -10,9 +10,9 @@ import (
 	"time"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db/lock"
-	"github.com/concourse/concourse/atc/util"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/db/lock"
+	"github.com/concourse/concourse/v7/atc/util"
 	"github.com/lib/pq"
 )
 

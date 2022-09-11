@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing/fstest"
 
-	"github.com/concourse/concourse/atc/runtime/runtimetest"
-	"github.com/concourse/concourse/atc/worker/gardenruntime"
-	"github.com/concourse/concourse/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/atc/runtime/runtimetest"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
 	. "github.com/onsi/gomega"
 )
 

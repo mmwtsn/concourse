@@ -18,7 +18,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/concourse/concourse/v7/go-concourse/concourse"
 	uuid "github.com/nu7hatch/gouuid"
 	"github.com/onsi/gomega/gexec"
 )

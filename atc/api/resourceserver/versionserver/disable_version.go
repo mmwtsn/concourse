@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 func (s *Server) DisableResourceVersion(pipeline db.Pipeline) http.Handler {

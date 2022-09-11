@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/encryption"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/db/encryption"
 )
 
 type FakeConn struct {

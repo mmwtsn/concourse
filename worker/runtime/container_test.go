@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"code.cloudfoundry.org/garden"
-	"github.com/concourse/concourse/worker/runtime"
-	"github.com/concourse/concourse/worker/runtime/libcontainerd/libcontainerdfakes"
-	"github.com/concourse/concourse/worker/runtime/runtimefakes"
+	"github.com/concourse/concourse/v7/worker/runtime"
+	"github.com/concourse/concourse/v7/worker/runtime/libcontainerd/libcontainerdfakes"
+	"github.com/concourse/concourse/v7/worker/runtime/runtimefakes"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

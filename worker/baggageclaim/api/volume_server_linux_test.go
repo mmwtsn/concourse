@@ -22,11 +22,11 @@ import (
 
 	"code.cloudfoundry.org/lager/lagertest"
 
-	"github.com/concourse/concourse/worker/baggageclaim"
-	"github.com/concourse/concourse/worker/baggageclaim/api"
-	"github.com/concourse/concourse/worker/baggageclaim/uidgid"
-	"github.com/concourse/concourse/worker/baggageclaim/volume"
-	"github.com/concourse/concourse/worker/baggageclaim/volume/driver"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/api"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/uidgid"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume/driver"
 )
 
 var _ = Describe("Volume Server", func() {

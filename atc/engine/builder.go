@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/lock"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/policy"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/db/lock"
+	"github.com/concourse/concourse/v7/atc/exec"
+	"github.com/concourse/concourse/v7/atc/policy"
 )
 
 const supportedSchema = "exec.v2"

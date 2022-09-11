@@ -3,7 +3,7 @@ package buildserver
 import (
 	"net/http"
 
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 func (s *Server) AbortBuild(build db.BuildForAPI) http.Handler {

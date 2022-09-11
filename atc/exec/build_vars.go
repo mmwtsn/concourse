@@ -3,7 +3,7 @@ package exec
 import (
 	"sync"
 
-	"github.com/concourse/concourse/vars"
+	"github.com/concourse/concourse/v7/vars"
 )
 
 type buildVariables struct {

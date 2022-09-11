@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/concourse/concourse/atc/api/present"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/api/present"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 func (s *Server) GetTeam(team db.Team) http.Handler {

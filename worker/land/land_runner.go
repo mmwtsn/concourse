@@ -6,8 +6,8 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/worker"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/worker"
 )
 
 type LandWorkerCommand struct {

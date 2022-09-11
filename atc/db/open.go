@@ -11,9 +11,9 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc/db/encryption"
-	"github.com/concourse/concourse/atc/db/lock"
-	"github.com/concourse/concourse/atc/db/migration"
+	"github.com/concourse/concourse/v7/atc/db/encryption"
+	"github.com/concourse/concourse/v7/atc/db/lock"
+	"github.com/concourse/concourse/v7/atc/db/migration"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/lib/pq"
 )

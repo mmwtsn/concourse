@@ -1,12 +1,12 @@
 package worker_test
 
 import (
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/runtime/runtimetest"
-	"github.com/concourse/concourse/atc/worker"
-	grt "github.com/concourse/concourse/atc/worker/gardenruntime/gardenruntimetest"
-	"github.com/concourse/concourse/atc/worker/workertest"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/runtime"
+	"github.com/concourse/concourse/v7/atc/runtime/runtimetest"
+	"github.com/concourse/concourse/v7/atc/worker"
+	grt "github.com/concourse/concourse/v7/atc/worker/gardenruntime/gardenruntimetest"
+	"github.com/concourse/concourse/v7/atc/worker/workertest"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/types"

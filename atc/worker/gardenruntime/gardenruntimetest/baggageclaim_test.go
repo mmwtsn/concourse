@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/concourse/concourse/atc/runtime/runtimetest"
-	"github.com/concourse/concourse/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/atc/runtime/runtimetest"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
 	"github.com/stretchr/testify/require"
 )
 

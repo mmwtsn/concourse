@@ -3,7 +3,7 @@ package config
 import (
 	"syscall"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 )
 
 func OverrideTaskParams(configFile []byte, args []string) (atc.TaskConfig, error) {

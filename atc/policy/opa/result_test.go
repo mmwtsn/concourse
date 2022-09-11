@@ -1,7 +1,7 @@
 package opa_test
 
 import (
-	"github.com/concourse/concourse/atc/policy/opa"
+	"github.com/concourse/concourse/v7/atc/policy/opa"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

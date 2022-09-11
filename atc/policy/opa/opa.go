@@ -10,7 +10,7 @@ import (
 
 	"code.cloudfoundry.org/lager"
 
-	"github.com/concourse/concourse/atc/policy"
+	"github.com/concourse/concourse/v7/atc/policy"
 )
 
 type OpaConfig struct {

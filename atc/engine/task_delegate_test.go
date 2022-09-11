@@ -10,16 +10,16 @@ import (
 
 	"code.cloudfoundry.org/clock/fakeclock"
 	"code.cloudfoundry.org/lager/lagertest"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/db/lock/lockfakes"
-	"github.com/concourse/concourse/atc/event"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/exec/execfakes"
-	"github.com/concourse/concourse/atc/policy/policyfakes"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/runtime/runtimetest"
-	"github.com/concourse/concourse/vars"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/db/dbfakes"
+	"github.com/concourse/concourse/v7/atc/db/lock/lockfakes"
+	"github.com/concourse/concourse/v7/atc/event"
+	"github.com/concourse/concourse/v7/atc/exec"
+	"github.com/concourse/concourse/v7/atc/exec/execfakes"
+	"github.com/concourse/concourse/v7/atc/policy/policyfakes"
+	"github.com/concourse/concourse/v7/atc/runtime"
+	"github.com/concourse/concourse/v7/atc/runtime/runtimetest"
+	"github.com/concourse/concourse/v7/vars"
 )
 
 var noopStepper exec.Stepper = func(atc.Plan) exec.Step {

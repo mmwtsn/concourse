@@ -5,12 +5,12 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/worker/gardenruntime"
-	"github.com/concourse/concourse/atc/worker/gardenruntime/gclient"
-	"github.com/concourse/concourse/atc/worker/gardenruntime/transport"
-	bclient "github.com/concourse/concourse/worker/baggageclaim/client"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/runtime"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime/gclient"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime/transport"
+	bclient "github.com/concourse/concourse/v7/worker/baggageclaim/client"
 	"github.com/concourse/retryhttp"
 )
 

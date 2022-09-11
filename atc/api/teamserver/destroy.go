@@ -3,7 +3,7 @@ package teamserver
 import (
 	"net/http"
 
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 func (s *Server) DestroyTeam(team db.Team) http.Handler {

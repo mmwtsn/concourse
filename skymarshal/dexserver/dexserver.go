@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/skymarshal/logger"
-	"github.com/concourse/concourse/skymarshal/skycmd"
-	s "github.com/concourse/concourse/skymarshal/storage"
+	"github.com/concourse/concourse/v7/skymarshal/logger"
+	"github.com/concourse/concourse/v7/skymarshal/skycmd"
+	s "github.com/concourse/concourse/v7/skymarshal/storage"
 	"github.com/concourse/dex/server"
 	"github.com/concourse/dex/storage"
 	"golang.org/x/crypto/bcrypt"

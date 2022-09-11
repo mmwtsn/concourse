@@ -3,7 +3,7 @@ package atc_test
 import (
 	"net/url"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

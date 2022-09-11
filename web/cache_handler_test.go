@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/concourse/concourse/web"
+	"github.com/concourse/concourse/v7/web"
 )
 
 var _ = Describe("CacheNearlyForever", func() {

@@ -2,7 +2,7 @@ package gclient
 
 import (
 	"code.cloudfoundry.org/garden"
-	"github.com/concourse/concourse/atc/worker/gardenruntime/gclient/connection"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime/gclient/connection"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

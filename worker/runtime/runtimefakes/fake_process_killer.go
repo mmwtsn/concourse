@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/concourse/concourse/worker/runtime"
+	"github.com/concourse/concourse/v7/worker/runtime"
 	"github.com/containerd/containerd"
 )
 

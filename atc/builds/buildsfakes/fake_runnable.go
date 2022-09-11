@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/concourse/concourse/atc/builds"
+	"github.com/concourse/concourse/v7/atc/builds"
 )
 
 type FakeRunnable struct {

@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/worker/baggageclaim"
-	"github.com/concourse/concourse/worker/baggageclaim/volume/copy"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume/copy"
 )
 
 type ImportStrategy struct {

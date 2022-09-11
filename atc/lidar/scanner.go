@@ -6,11 +6,11 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/util"
-	"github.com/concourse/concourse/tracing"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/metric"
+	"github.com/concourse/concourse/v7/atc/util"
+	"github.com/concourse/concourse/v7/tracing"
 )
 
 func NewScanner(checkFactory db.CheckFactory, planFactory atc.PlanFactory) *scanner {

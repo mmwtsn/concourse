@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/concourse/concourse/atc/compression"
-	. "github.com/concourse/concourse/atc/exec/build"
+	"github.com/concourse/concourse/v7/atc/compression"
+	. "github.com/concourse/concourse/v7/atc/exec/build"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

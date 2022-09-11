@@ -3,7 +3,7 @@ package noop
 import (
 	"time"
 
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/concourse/concourse/v7/atc/creds"
 )
 
 type Noop struct{}

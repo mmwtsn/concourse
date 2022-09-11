@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/compression"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/compression"
+	"github.com/concourse/concourse/v7/atc/db"
 	"go.opentelemetry.io/otel/propagation"
 )
 

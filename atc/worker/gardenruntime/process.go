@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"code.cloudfoundry.org/garden"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/worker/gardenruntime/gclient"
+	"github.com/concourse/concourse/v7/atc/runtime"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime/gclient"
 	"github.com/hashicorp/go-multierror"
 )
 

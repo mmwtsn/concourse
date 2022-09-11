@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/concourse/concourse/atc/db/lock"
+	"github.com/concourse/concourse/v7/atc/db/lock"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 type StepsWaitingLabels struct {

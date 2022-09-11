@@ -3,9 +3,9 @@ package flaghelpers
 import (
 	"strings"
 
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/concourse/concourse/v7/go-concourse/concourse"
 
-	"github.com/concourse/concourse/fly/rc"
+	"github.com/concourse/concourse/v7/fly/rc"
 	"github.com/jessevdk/go-flags"
 )
 

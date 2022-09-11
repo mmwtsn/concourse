@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/concourse/concourse/integration/internal/dctest"
+	"github.com/concourse/concourse/v7/integration/internal/dctest"
 	"github.com/stretchr/testify/require"
 )
 

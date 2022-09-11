@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/creds"
 	"github.com/gobwas/glob"
 )
 

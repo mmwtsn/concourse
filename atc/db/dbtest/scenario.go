@@ -3,8 +3,8 @@ package dbtest
 import (
 	"fmt"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/db"
 
 	"github.com/onsi/ginkgo"
 	//lint:ignore ST1001 this is used for tests

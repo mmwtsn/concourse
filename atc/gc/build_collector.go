@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc/metric"
+	"github.com/concourse/concourse/v7/atc/metric"
 )
 
 type buildCollector struct {

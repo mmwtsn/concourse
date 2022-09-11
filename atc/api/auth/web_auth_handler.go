@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/concourse/concourse/skymarshal/token"
+	"github.com/concourse/concourse/v7/skymarshal/token"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

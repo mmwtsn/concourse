@@ -15,10 +15,10 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/localip"
-	concourseCmd "github.com/concourse/concourse/cmd"
-	"github.com/concourse/concourse/worker/network"
-	"github.com/concourse/concourse/worker/runtime"
-	"github.com/concourse/concourse/worker/runtime/libcontainerd"
+	concourseCmd "github.com/concourse/concourse/v7/cmd"
+	"github.com/concourse/concourse/v7/worker/network"
+	"github.com/concourse/concourse/v7/worker/runtime"
+	"github.com/concourse/concourse/v7/worker/runtime/libcontainerd"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/grouper"
 )

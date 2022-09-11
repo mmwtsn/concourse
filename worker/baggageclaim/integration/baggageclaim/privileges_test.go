@@ -18,8 +18,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/concourse/concourse/worker/baggageclaim"
-	"github.com/concourse/concourse/worker/baggageclaim/uidgid"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/uidgid"
 )
 
 var _ = Describe("Privileges", func() {

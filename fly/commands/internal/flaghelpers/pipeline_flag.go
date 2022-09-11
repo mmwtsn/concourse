@@ -6,9 +6,9 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/fly/rc"
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/fly/rc"
+	"github.com/concourse/concourse/v7/go-concourse/concourse"
 )
 
 type PipelineFlag struct {

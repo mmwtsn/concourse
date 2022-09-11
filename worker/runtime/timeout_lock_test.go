@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/concourse/concourse/worker/runtime"
+	"github.com/concourse/concourse/v7/worker/runtime"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

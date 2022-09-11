@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	. "github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/atc/exec/execfakes"
+	. "github.com/concourse/concourse/v7/atc/exec"
+	"github.com/concourse/concourse/v7/atc/exec/build"
+	"github.com/concourse/concourse/v7/atc/exec/execfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

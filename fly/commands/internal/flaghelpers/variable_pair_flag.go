@@ -3,7 +3,7 @@ package flaghelpers
 import (
 	"fmt"
 
-	"github.com/concourse/concourse/vars"
+	"github.com/concourse/concourse/v7/vars"
 )
 
 type VariablePairFlag vars.KVPair

@@ -2,7 +2,7 @@ package volume
 
 import (
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
 )
 
 type EmptyStrategy struct{}

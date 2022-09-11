@@ -3,8 +3,8 @@ package executehelpers
 import (
 	"fmt"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/fly/commands/internal/flaghelpers"
 )
 
 type Output struct {

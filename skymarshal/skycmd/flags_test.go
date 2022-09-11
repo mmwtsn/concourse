@@ -3,8 +3,8 @@ package skycmd_test
 import (
 	"errors"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/skymarshal/skycmd"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/skymarshal/skycmd"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

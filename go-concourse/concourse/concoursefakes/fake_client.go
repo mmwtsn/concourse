@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/go-concourse/concourse"
 )
 
 type FakeClient struct {

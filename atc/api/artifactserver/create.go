@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"fmt"
 
-	"github.com/concourse/concourse/atc/api/present"
-	"github.com/concourse/concourse/atc/compression"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/worker"
+	"github.com/concourse/concourse/v7/atc/api/present"
+	"github.com/concourse/concourse/v7/atc/compression"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/worker"
 )
 
 func (s *Server) CreateArtifact(team db.Team) http.Handler {

@@ -8,11 +8,11 @@ import (
 	"net/http/httptest"
 	"net/url"
 
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/api/accessor/accessorfakes"
-	"github.com/concourse/concourse/atc/api/auth"
-	"github.com/concourse/concourse/atc/api/auth/authfakes"
-	"github.com/concourse/concourse/atc/auditor/auditorfakes"
+	"github.com/concourse/concourse/v7/atc/api/accessor"
+	"github.com/concourse/concourse/v7/atc/api/accessor/accessorfakes"
+	"github.com/concourse/concourse/v7/atc/api/auth"
+	"github.com/concourse/concourse/v7/atc/api/auth/authfakes"
+	"github.com/concourse/concourse/v7/atc/auditor/auditorfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

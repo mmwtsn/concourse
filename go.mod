@@ -1,4 +1,4 @@
-module github.com/concourse/concourse
+module github.com/concourse/concourse/v7
 
 go 1.19
 

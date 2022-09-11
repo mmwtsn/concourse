@@ -13,9 +13,9 @@ import (
 
 	"github.com/concourse/go-archive/tgzfs"
 
-	"github.com/concourse/concourse/worker/baggageclaim/uidgid/uidgidfakes"
-	"github.com/concourse/concourse/worker/baggageclaim/volume"
-	"github.com/concourse/concourse/worker/baggageclaim/volume/volumefakes"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/uidgid/uidgidfakes"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume/volumefakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

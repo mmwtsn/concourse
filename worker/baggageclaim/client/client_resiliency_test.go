@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/concourse/concourse/worker/baggageclaim"
-	"github.com/concourse/concourse/worker/baggageclaim/client"
-	"github.com/concourse/concourse/worker/baggageclaim/volume"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/client"
+	"github.com/concourse/concourse/v7/worker/baggageclaim/volume"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"

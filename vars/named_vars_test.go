@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/concourse/concourse/vars"
+	. "github.com/concourse/concourse/v7/vars"
 )
 
 var _ = Describe("NamedVariables", func() {

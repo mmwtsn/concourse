@@ -12,10 +12,10 @@ import (
 	"net/http/httptest"
 	"time"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc/db"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

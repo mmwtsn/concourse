@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager/lagertest"
-	"github.com/concourse/concourse/atc/policy"
-	"github.com/concourse/concourse/atc/policy/opa"
+	"github.com/concourse/concourse/v7/atc/policy"
+	"github.com/concourse/concourse/v7/atc/policy/opa"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/garden"
-	"github.com/concourse/concourse/worker/runtime/libcontainerd"
-	bespec "github.com/concourse/concourse/worker/runtime/spec"
+	"github.com/concourse/concourse/v7/worker/runtime/libcontainerd"
+	bespec "github.com/concourse/concourse/v7/worker/runtime/spec"
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/cio"
 	"github.com/containerd/containerd/errdefs"

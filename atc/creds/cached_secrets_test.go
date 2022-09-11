@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/concourse/concourse/atc/creds"
-	"github.com/concourse/concourse/atc/creds/credsfakes"
+	"github.com/concourse/concourse/v7/atc/creds"
+	"github.com/concourse/concourse/v7/atc/creds/credsfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -8,13 +8,13 @@ import (
 	"net/http/httptest"
 	"time"
 
-	. "github.com/concourse/concourse/atc/testhelpers"
+	. "github.com/concourse/concourse/v7/atc/testhelpers"
 
 	"code.cloudfoundry.org/lager/lagertest"
-	. "github.com/concourse/concourse/atc/api/buildserver"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/event"
+	. "github.com/concourse/concourse/v7/atc/api/buildserver"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/db/dbfakes"
+	"github.com/concourse/concourse/v7/atc/event"
 	"github.com/vito/go-sse/sse"
 
 	. "github.com/onsi/ginkgo"

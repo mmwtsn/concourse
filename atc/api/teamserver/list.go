@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/api/present"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/api/accessor"
+	"github.com/concourse/concourse/v7/atc/api/present"
 )
 
 func (s *Server) ListTeams(w http.ResponseWriter, r *http.Request) {

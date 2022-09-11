@@ -10,10 +10,10 @@ import (
 	"code.cloudfoundry.org/clock"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/worker/gardenruntime/gclient"
-	"github.com/concourse/concourse/tsa"
-	bclient "github.com/concourse/concourse/worker/baggageclaim/client"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime/gclient"
+	"github.com/concourse/concourse/v7/tsa"
+	bclient "github.com/concourse/concourse/v7/worker/baggageclaim/client"
 	"golang.org/x/crypto/ssh"
 )
 

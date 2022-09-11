@@ -7,10 +7,10 @@ import (
 	"net"
 	"net/url"
 
-	. "github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/atc/exec/execfakes"
-	"github.com/concourse/concourse/atc/worker/gardenruntime/transport"
+	. "github.com/concourse/concourse/v7/atc/exec"
+	"github.com/concourse/concourse/v7/atc/exec/build"
+	"github.com/concourse/concourse/v7/atc/exec/execfakes"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime/transport"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

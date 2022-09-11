@@ -10,8 +10,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/concourse/concourse/integration/internal/cmdtest"
-	"github.com/concourse/concourse/integration/internal/ypath"
+	"github.com/concourse/concourse/v7/integration/internal/cmdtest"
+	"github.com/concourse/concourse/v7/integration/internal/ypath"
 	"github.com/stretchr/testify/require"
 )
 

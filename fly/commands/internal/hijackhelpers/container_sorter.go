@@ -3,7 +3,7 @@ package hijackhelpers
 import (
 	"strings"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 )
 
 type ContainerSorter []atc.Container

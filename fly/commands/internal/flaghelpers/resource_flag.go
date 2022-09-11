@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/concourse/concourse/v7/atc"
 )
 
 type ResourceFlag struct {

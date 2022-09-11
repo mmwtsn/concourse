@@ -3,12 +3,12 @@ package commands
 import (
 	"os"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/fly/commands/internal/displayhelpers"
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
-	"github.com/concourse/concourse/fly/rc"
-	"github.com/concourse/concourse/fly/ui"
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/fly/commands/internal/displayhelpers"
+	"github.com/concourse/concourse/v7/fly/commands/internal/flaghelpers"
+	"github.com/concourse/concourse/v7/fly/rc"
+	"github.com/concourse/concourse/v7/fly/ui"
+	"github.com/concourse/concourse/v7/go-concourse/concourse"
 	"github.com/fatih/color"
 )
 

@@ -1,9 +1,9 @@
 package worker
 
 import (
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/lock"
-	"github.com/concourse/concourse/atc/worker/gardenruntime"
+	"github.com/concourse/concourse/v7/atc/db"
+	"github.com/concourse/concourse/v7/atc/db/lock"
+	"github.com/concourse/concourse/v7/atc/worker/gardenruntime"
 )
 
 func NewDB(

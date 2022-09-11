@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/concourse/concourse/atc/runtime/runtimetest"
-	"github.com/concourse/concourse/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/atc/runtime/runtimetest"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
 )
 
 type Baggageclaim struct {

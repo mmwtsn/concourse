@@ -3,7 +3,7 @@
 package cmocks
 
 import (
-	db "github.com/concourse/concourse/atc/db"
+	db "github.com/concourse/concourse/v7/atc/db"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/concourse/concourse/integration/internal/flytest"
+	"github.com/concourse/concourse/v7/integration/internal/flytest"
 	"github.com/stretchr/testify/require"
 )
 

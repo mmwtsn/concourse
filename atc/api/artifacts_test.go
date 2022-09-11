@@ -8,11 +8,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/runtime/runtimetest"
-	. "github.com/concourse/concourse/atc/testhelpers"
-	"github.com/concourse/concourse/atc/worker"
-	"github.com/concourse/concourse/worker/baggageclaim"
+	"github.com/concourse/concourse/v7/atc/db/dbfakes"
+	"github.com/concourse/concourse/v7/atc/runtime/runtimetest"
+	. "github.com/concourse/concourse/v7/atc/testhelpers"
+	"github.com/concourse/concourse/v7/atc/worker"
+	"github.com/concourse/concourse/v7/worker/baggageclaim"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

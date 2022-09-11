@@ -4,7 +4,7 @@ package metricfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/metric"
+	"github.com/concourse/concourse/v7/atc/metric"
 )
 
 type FakeEmitterFactory struct {

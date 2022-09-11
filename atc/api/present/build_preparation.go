@@ -1,8 +1,8 @@
 package present
 
 import (
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/concourse/concourse/v7/atc"
+	"github.com/concourse/concourse/v7/atc/db"
 )
 
 func BuildPreparation(preparation db.BuildPreparation) atc.BuildPreparation {

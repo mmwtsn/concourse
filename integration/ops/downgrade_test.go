@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/concourse/concourse/integration/internal/dctest"
-	"github.com/concourse/concourse/integration/internal/flytest"
+	"github.com/concourse/concourse/v7/integration/internal/dctest"
+	"github.com/concourse/concourse/v7/integration/internal/flytest"
 )
 
 func TestDowngrade(t *testing.T) {
